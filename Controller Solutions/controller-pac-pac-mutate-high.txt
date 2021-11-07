@@ -1,0 +1,15 @@
+digraph G {
+0[label=f_MULT];
+1[label=t_PAC_FRUIT];
+2[label=f_SUB];
+3[label=f_SUB];
+4[label=t_PAC_FRUIT];
+5[label=t_PAC_FRUIT];
+6[label=t_PAC_FRUIT];
+1->0 ;
+3->2 ;
+4->2 ;
+5->3 ;
+2->0 ;
+6->3 ;
+}
